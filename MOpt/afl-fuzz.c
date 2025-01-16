@@ -7946,6 +7946,9 @@ int main(int argc, char **argv) {
   while ((opt = getopt(argc, argv, "+i:o:f:m:t:V:T:L:dnCB:S:M:x:Q")) > 0)
     switch (opt) {
 
+    case 'L':
+      break;
+
     case 'i':                  /* input dir */
 
       if (in_dir)
